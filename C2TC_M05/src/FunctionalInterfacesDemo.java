@@ -33,8 +33,8 @@ public class FunctionalInterfacesDemo
 		//Since Java 8 we can use lambda
 		ArithmeticOperation times = (x, y) -> x * y;
 		
-		System.out.println(new Plus().operation(13, 3)); // 16
-		System.out.println(minus.operation(13, 3));		 // 10
-		System.out.println(times.operation(13, 3));		 // 39
+		System.out.println(new Plus().operation(13, 3));//16
+		System.out.println(minus.operation(13, 3));//10
+		System.out.println(times.operation(13, 3));//39
 	}
 }
