@@ -10,7 +10,7 @@ public class StaticDemo
 {
 	static int a = 10;
 	static int b;
-	static int c=25;
+	static int c = 25;
 	
 	static void func1()
 	{
@@ -21,20 +21,20 @@ public class StaticDemo
 	
 	static void func2()
 	{
-		int d= 23;
-		System.out.println("d value is "+ d);
-		System.out.println("c value is "+ c);
+		int d = 23;
+		System.out.println("d value is " + d);
+		System.out.println("c value is " + c);
 	}
 	
 	static
 	{
 		System.out.println("Hi I am in static block no.1 in StaticDemo-class");
-		// System.exit(0);
+		//System.exit(0);
 	}
 
 	public static void main(String[] args)
 	{
-		System.out.println("c Value is: " +StaticDemo.c);
+		System.out.println("c value is: " +StaticDemo.c);
 		StaticDemo.func1();
 		StaticDemo.func2();
 		
