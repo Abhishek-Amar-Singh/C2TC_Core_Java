@@ -1,5 +1,5 @@
 public class ArgsDemo
-{
+{	
 	public static void main(String[] args)
 	{
 		System.out.println(args.toString());
@@ -14,5 +14,7 @@ public class ArgsDemo
 				System.out.println(i);
 			}
 		}
+		
+		//ArgsDemo.main(new String[] {"C++","C#","Java"});
 	}
 }
