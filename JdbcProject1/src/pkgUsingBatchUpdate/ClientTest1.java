@@ -36,5 +36,4 @@ public class ClientTest1
 			e.printStackTrace();
 		}
 	}
-
 }
