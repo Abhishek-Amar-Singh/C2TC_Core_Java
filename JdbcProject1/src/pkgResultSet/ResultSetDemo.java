@@ -11,13 +11,13 @@ public class ResultSetDemo
 {
 	public static void main(String[] args) throws SQLException
 	{
-		Connection connection = DB_Util1.getConnection();
-		if(connection != null)
+		Connection conn = DB_Util1.getConnection();
+		if(conn != null)
 		{
 			System.out.println("JDBC:connection is taken..");
 		}
 		
-		Statement st = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
+		Statement st = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
 		ResultSet rs = st.executeQuery("select * from employee_table");
 		
 		System.out.println("4th record is:");
@@ -35,7 +35,7 @@ public class ResultSetDemo
 		
 		try
 		{
-			connection.close();
+			conn.close();
 			st.close();
 		}
 		catch(Exception e)
