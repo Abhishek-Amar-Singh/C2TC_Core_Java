@@ -16,10 +16,10 @@ public class GenericDemo3
 {
 	public static void main(String[] args)
 	{
-		GenericTest3 gt = new GenericTest3();
+		GenericTest3 gt3 = new GenericTest3();
 		Integer[] iarr = {12, 9, 2, 84, 79};
 		String[] sarr = {"C", "C++", "C#"};
-		gt.displayArrayElements(iarr);
-		gt.displayArrayElements(sarr);
+		gt3.displayArrayElements(iarr);
+		gt3.displayArrayElements(sarr);
 	}
 }

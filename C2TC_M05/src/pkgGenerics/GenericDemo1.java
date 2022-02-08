@@ -16,6 +16,7 @@ public class GenericDemo1
 		System.out.println("1st value is: " + greatBeings);
 		
 		Iterator<String> itr = al.iterator();
+		System.out.println("Iteration:");
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
