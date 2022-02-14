@@ -18,7 +18,7 @@ public class GenericInterfaceDemo<T extends Comparable<T>> implements MinMax<T>
 	@Override
 	public T min()
 	{
-		T o1=values[0];
+		T o1 = values[0];
 		for(int i = 1; i<values.length; i++)
 		{
 			if (values[i].compareTo(o1) < 0)
@@ -32,7 +32,7 @@ public class GenericInterfaceDemo<T extends Comparable<T>> implements MinMax<T>
 	@Override
 	public T max()
 	{
-		T o1=values[0];
+		T o1 = values[0];
 		for(int i = 1; i<values.length; i++)
 		{
 			if (values[i].compareTo(o1) > 0)
