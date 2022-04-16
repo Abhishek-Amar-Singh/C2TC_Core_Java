@@ -7,7 +7,7 @@ public class HashMapDemo
 {
 	public static void main(String[] args)
 	{
-		HashMap<Integer,String> hm=new HashMap<Integer,String>();
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
 		hm.put(1,"Mango");
 		hm.put(53,"Apple");
 		hm.put(31,"Banana");

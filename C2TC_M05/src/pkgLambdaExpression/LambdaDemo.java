@@ -32,3 +32,7 @@ public class LambdaDemo
 		greeting.str();
 	}
 }
+
+/*
+The new operator (->) used is known as an arrow operator or a lambda operator.
+*/
